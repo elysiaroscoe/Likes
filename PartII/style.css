@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+.box{
+    margin-top: 15px;
+}
+.container{
+    display: flex;
+}
+
+.space{
+    flex: 1;
+}
+
+.main{
+    flex: 5;
+}
+
+.network{
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: auto;
+    padding: 25px;    
+}
+
+.feed{
+    background-color: white;
+    color: black;
+    height: 50px;
+    width: auto;
+    padding: 25px;
+    text-align: center;
+}
+
+.name{
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+button{
+    width: 50px;
+    background-color: #ffd966 ;
+    border: solid black 3px;
+    box-shadow: 1px 1px 1px black;
+    margin-left: 15px;
+}
+
+.profile{
+    flex: 2;
+    border: solid black 3px;
+    margin: 10px 10px 10px 0px;
+}
+
+.user{
+    border: solid black 3px;
+    margin: 10px 0px 10px 10px;
+    padding:8px;
+}
+
+.base{
+    flex:4;
+}
